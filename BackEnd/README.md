@@ -1,5 +1,4 @@
 ### HTTP API
-### HTTP API
 ##### Get blockchain
 ```
 curl http://localhost:3001/blocks
