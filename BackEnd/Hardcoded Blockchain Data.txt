@@ -1,0 +1,63 @@
+System -> Maria_Georgiou(Insured_Adult) 
+Amount: 80 Tokens
+Description: Given for Mazda3 based on yearly insurance cost.
+
+System -> Andreas_Georgiou(Insured_Adult)
+Amount: 120 Tokens
+Description: Given for Mercedes c200 based on yearly insurance cost.
+
+System -> Andreas_Georgiou(Insured_Adult)
+Amount: 240 Tokens
+Description: Given for AudiTTRS based on yearly insurance cost.
+
+Maria_Georgiou(Insured_Adult) -> Giorgos_Georgiou(Insured_Son_Under25)
+Amount: 24 Tokens
+Description: Insured my son 24 hours on Mazda3.
+ 
+Maria_Georgiou(Insured_Adult) -> GanDirect
+Amount: 24 Tokens
+Description: Car insurance for my son at Date 21/1/2017 - 22:00 - until - 22/1/2017 - 22:00
+
+Maria_Georgiou(Insured_Adult) -> Giorgos_Georgiou(Insured_Second_Under25)
+Amount: 6 Tokens
+Description: Insured my son 6 hours on Mazda3.
+
+Maria_Georgiou(Insured_Adult) -> GanDirect
+Amount: 6 Tokens
+Description: Life Insurance for my son   for tha Dates 22/1/2017 - at 12:00 - 18:00
+
+Andreas_Georgiou(Insured_Adult) -> Panagiotis_Georgiou(Insured_Son_Under25)
+Amount: 144 Tokens
+Description: Insured my son 48 hours on AudiTTRS.
+
+Andreas_Georgiou(Insured_Adult) -> GanDirect
+Amount: 144 Tokens
+Description: Life Insurance for my son   for tha Dates 10/5/2017 - 11:00 - 12/5/2017 - 11:00  
+
+Maria_Georgiou(Insured_Adult) -> Giorgos_Georgiou(Insured_Second_Under25)
+Amount: 48 Tokens
+Description: Insured my son 48 hours on Mazda3
+
+Maria_Georgiou(Insured_Adult) -> GanDirect
+Amount: 48 Tokens
+Description: Life Insurance for my son   for tha Dates 22/8/2017 - 12:00 - 24/8/2017 - 12:00
+
+Maria_Georgiou(Insured_Adult) -> Giorgos_Georgiou(Insured_Second_Under25)
+Amount: 2 Tokens
+Description: Insured my son 2 hours on my car 
+
+Maria_Georgiou(Insured_Adult) -> GanDirect
+Amount: 2 Tokens
+Description: Life Insurance for my son   for tha Dates 26/8/2017 - 1:00 - 27/8/2017 - 3:00
+
+System -> Maria_Georgiou(Insured_Adult)
+Amount: 48 Tokens
+Description: Purchased 48 euro charge for Mazda3.
+
+Maria_Gergiou(Insured_Adult) -> Giorgos_Georgiou(Insured_Second_Under25)
+Amount: 48 Tokens
+Description: Insured my son 48 hours on my car 
+
+Maria_Georgiou(Insured_Adult) -> GanDirect
+Amount: 48 Tokens
+Description: Life Insurance for my son   for tha Dates 22/12/2017 - 12:00 - 24/12/2017 - 12:00
