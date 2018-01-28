@@ -14,4 +14,7 @@ curl -H "Content-type:application/json" --data '{"peer" : "ws://localhost:6001"}
 #### Query connected peers
 ```
 curl http://localhost:3001/peers
+
 ```
+
+@Naivechain [https://github.com/lhartikk/naivechain]

@@ -1,19 +1,20 @@
 # BlockSurance
-MPLA MPLA MPLA
+Demand Insurance
 
 Synopsis
 -------------------
-MPLA MPLA MPLA
+Real time insurance on demand
 
 How to Get Started
 -------------------
-MPLA MPLA MPLA
+
+Deploy Backend on Heroku and install Mobile App to customers.
 
 For detailed instructions on how to build the Mobile App, follow the instructions in [Readme.md of the Mobile_App direcory](MobileApp/README.md)
 
 Contributors
 ------------
 - [Marios Kelepeshis](https://github.com/mkelepe)
-- [Name Surname]
-- [Name Surname]
+- [Kyriakos Aristidi]
+- [Dimitris Georgiou]
 

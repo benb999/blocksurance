@@ -15,10 +15,10 @@ angular.module('app.routes', [])
     controller: 'carsCtrl'
   })
 
-  .state('myTokens', {
+  .state('myWallet', {
     url: '/page2',
-    templateUrl: 'templates/myTokens.html',
-    controller: 'myTokensCtrl'
+    templateUrl: 'templates/myWallet.html',
+    controller: 'myWalletCtrl'
   })
 
   .state('insurance', {
@@ -63,7 +63,25 @@ angular.module('app.routes', [])
     controller: 'blockchainHistoryCtrl'
   })
 
-$urlRouterProvider.otherwise('')
+  .state('purchaseTokens', {
+    url: '/page11',
+    templateUrl: 'templates/purchaseTokens.html',
+    controller: 'purchaseTokensCtrl'
+  })
+
+  .state('page', {
+    url: '/page12',
+    templateUrl: 'templates/page.html',
+    controller: 'pageCtrl'
+  })
+
+  .state('page2', {
+    url: '/page13',
+    templateUrl: 'templates/page2.html',
+    controller: 'page2Ctrl'
+  })
+
+$urlRouterProvider.otherwise('/page7')
 
 
 });

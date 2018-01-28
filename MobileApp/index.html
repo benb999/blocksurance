@@ -76,13 +76,14 @@
         <div class="title">Menu</div>
       </ion-header-bar>
       <ion-content ng-controller="menuCtrl" padding="false" class="side-menu-left has-header ">
-        <form id="menu-form15" class="list" data-componentid="form15">
-          <ion-toggle toggle-class="toggle-positive" id="menu-toggle1" data-componentid="toggle1"></ion-toggle>
-        </form>
-        <a ui-sref="profile()" menu-close="" id="menu-button10" class="button button-positive button-block" data-componentid="button10">Profile</a>
-        <a ui-sref="myTokens()" menu-close="" id="menu-button1" class="button button-positive button-block" data-componentid="button1">My Tokens</a>
-        <a ui-sref="cars()" menu-close="" id="menu-button8" class="button button-positive button-block" data-componentid="button8">Cars</a>
-        <a ui-sref="insurance()" menu-close="" id="menu-button9" class="button button-positive button-block" data-componentid="button9">Insurance</a>
+        <ion-list id="menu-list6" data-componentid="list6">
+          <ion-item class="item-icon-left" id="menu-list-item18" ui-sref="profile()" menu-close="" data-componentid="list-item18">
+            <i class="icon ion-android-person"></i>Andreas Georgiou</ion-item>
+        </ion-list>
+        <a ui-sref="profile()" menu-close="" id="menu-button10" class="button button-positive button-block icon-left ion-information-circled" data-componentid="button10">Profile</a>
+        <a ui-sref="myWallet()" menu-close="" id="menu-button1" class="button button-positive button-block icon-left ion-ios-pricetag" data-componentid="button1">My Wallet</a>
+        <a ui-sref="cars()" menu-close="" id="menu-button8" class="button button-positive button-block icon-left ion-android-car" data-componentid="button8">Cars</a>
+        <a ui-sref="insurance()" menu-close="" id="menu-button9" class="button button-positive button-block icon-left ion-locked" data-componentid="button9">Insurance</a>
       </ion-content>
     </ion-side-menu>
   </ion-side-menus>
